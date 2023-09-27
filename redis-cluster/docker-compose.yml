@@ -1,0 +1,125 @@
+version: '2'
+services:
+  redis-node-0:
+    image: docker.io/bitnami/redis-cluster:7.0.8
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.5
+    command: ["/opt/bitnami/scripts/redis-cluster/run.sh", "--protected-mode", "no"]
+    environment:
+      - 'REDIS_PASSWORD=bitnami'
+      - 'REDIS_NODES=redis-node-0 redis-node-1 redis-node-2 redis-node-3 redis-node-4 redis-node-5'
+      - 'REDIS_TLS_ENABLED=yes'
+      - 'REDIS_TLS_CERT_FILE=/opt/redis/node0.crt'
+      - 'REDIS_TLS_KEY_FILE=/opt/redis/node0.key'
+      - 'REDIS_TLS_CA_FILE=/opt/redis/node0.cas'
+      - 'REDIS_TLS_PORT=6379'
+      - 'REDIS_ACLFILE=/opt/redis/users.acl'
+
+  redis-node-1:
+    image: docker.io/bitnami/redis-cluster:7.0.8
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.6
+    command: ["/opt/bitnami/scripts/redis-cluster/run.sh", "--protected-mode", "no"]
+    environment:
+      - 'REDIS_PASSWORD=bitnami'
+      - 'REDIS_NODES=redis-node-0 redis-node-1 redis-node-2 redis-node-3 redis-node-4 redis-node-5'
+      - 'REDIS_TLS_ENABLED=yes'
+      - 'REDIS_TLS_CERT_FILE=/opt/redis/node1.crt'
+      - 'REDIS_TLS_KEY_FILE=/opt/redis/node1.key'
+      - 'REDIS_TLS_CA_FILE=/opt/redis/node1.cas'
+      - 'REDIS_TLS_PORT=6379'
+      - 'REDIS_ACLFILE=/opt/redis/users.acl'
+
+  redis-node-2:
+    image: docker.io/bitnami/redis-cluster:7.0.8
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.7
+    command: ["/opt/bitnami/scripts/redis-cluster/run.sh", "--protected-mode", "no"]
+    environment:
+      - 'REDIS_PASSWORD=bitnami'
+      - 'REDIS_NODES=redis-node-0 redis-node-1 redis-node-2 redis-node-3 redis-node-4 redis-node-5'
+      - 'REDIS_TLS_ENABLED=yes'
+      - 'REDIS_TLS_CERT_FILE=/opt/redis/node2.crt'
+      - 'REDIS_TLS_KEY_FILE=/opt/redis/node2.key'
+      - 'REDIS_TLS_CA_FILE=/opt/redis/node2.cas'
+      - 'REDIS_TLS_PORT=6379'
+      - 'REDIS_ACLFILE=/opt/redis/users.acl'
+
+  redis-node-3:
+    image: docker.io/bitnami/redis-cluster:7.0.8
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.8
+    command: ["/opt/bitnami/scripts/redis-cluster/run.sh", "--protected-mode", "no"]
+    environment:
+      - 'REDIS_PASSWORD=bitnami'
+      - 'REDIS_NODES=redis-node-0 redis-node-1 redis-node-2 redis-node-3 redis-node-4 redis-node-5'
+      - 'REDIS_TLS_ENABLED=yes'
+      - 'REDIS_TLS_CERT_FILE=/opt/redis/node3.crt'
+      - 'REDIS_TLS_KEY_FILE=/opt/redis/node3.key'
+      - 'REDIS_TLS_CA_FILE=/opt/redis/node3.cas'
+      - 'REDIS_TLS_PORT=6379'
+      - 'REDIS_ACLFILE=/opt/redis/users.acl'
+
+  redis-node-4:
+    image: docker.io/bitnami/redis-cluster:7.0.8
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.9
+    command: ["/opt/bitnami/scripts/redis-cluster/run.sh", "--protected-mode", "no"]
+    environment:
+      - 'REDIS_PASSWORD=bitnami'
+      - 'REDIS_NODES=redis-node-0 redis-node-1 redis-node-2 redis-node-3 redis-node-4 redis-node-5'
+      - 'REDIS_TLS_ENABLED=yes'
+      - 'REDIS_TLS_CERT_FILE=/opt/redis/node4.crt'
+      - 'REDIS_TLS_KEY_FILE=/opt/redis/node4.key'
+      - 'REDIS_TLS_CA_FILE=/opt/redis/node4.cas'
+      - 'REDIS_TLS_PORT=6379'
+      - 'REDIS_ACLFILE=/opt/redis/users.acl'
+
+  redis-node-5:
+    image: docker.io/bitnami/redis-cluster:7.0.8
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.10
+    command: ["/opt/bitnami/scripts/redis-cluster/run.sh", "--protected-mode", "no"]
+    depends_on:
+      - redis-node-0
+      - redis-node-1
+      - redis-node-2
+      - redis-node-3
+      - redis-node-4
+    environment:
+      - 'REDIS_PASSWORD=bitnami'
+      - 'REDISCLI_AUTH=bitnami'
+      - 'REDIS_CLUSTER_REPLICAS=1'
+      - 'REDIS_NODES=redis-node-0 redis-node-1 redis-node-2 redis-node-3 redis-node-4 redis-node-5'
+      - 'REDIS_CLUSTER_CREATOR=yes'
+      - 'REDIS_TLS_ENABLED=yes'
+      - 'REDIS_TLS_CERT_FILE=/opt/redis/node5.crt'
+      - 'REDIS_TLS_KEY_FILE=/opt/redis/node5.key'
+      - 'REDIS_TLS_CA_FILE=/opt/redis/node5.cas'
+      - 'REDIS_TLS_PORT=6379'
+      - 'REDIS_ACLFILE=/opt/redis/users.acl'
+networks:
+  rediscluster:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/24
+         gateway: 10.5.0.1

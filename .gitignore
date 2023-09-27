@@ -1,3 +1,10 @@
 mysql/mysql.cas
 mysql/mysql.crt
 mysql/mysql.key
+mariadb/mariadb.cas
+mariadb/mariadb.crt
+mariadb/mariadb.key
+redis-cluster/node*
+redis-single/single.cas
+redis-single/single.crt
+redis-single/single.key
