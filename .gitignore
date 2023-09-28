@@ -8,3 +8,5 @@ redis-cluster/node*
 redis-single/single.cas
 redis-single/single.crt
 redis-single/single.key
+mongo/mongo.cas
+mongo/mongo.crt
