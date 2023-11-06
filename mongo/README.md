@@ -11,3 +11,8 @@ db.getSiblingDB("$external").runCommand(
   }
 )
 ```
+
+Note use `docker exec -it mongo mongo -u mongoadmin -p secret` if `mongosh`
+does not exist.
+
+Use `Makefile_4.0` for Mongo v4.0.
