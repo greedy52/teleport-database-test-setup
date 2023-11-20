@@ -1,8 +1,20 @@
 init:
 	tctl auth sign --format=redis --host=localhost --out=single --ttl=2190h
 	chmod a+r single*
-run:
+up:
 	docker run -d --name redis -v $(PWD):/opt/redis -p 6379:6379 redis:7.0 redis-server /opt/redis/single.conf
+
+down:
+	docker rm -f redis
+
+dump:
+	@printf "%s\n" \
+      'db_service:' \
+      '  enabled: "yes"' \
+      '  databases:' \
+      '  - name: "self-hosted-redis"' \
+      '    protocol: "redis"'\
+      '    uri: "localhost:6379"'
 
 .PHONY: clean
 clean: down

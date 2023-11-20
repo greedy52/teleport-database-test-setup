@@ -19,6 +19,28 @@ up:
 down:
 	docker rm -f mongo
 
+dump:
+	@printf "%s\n" \
+      'db_service:' \
+      '  enabled: "yes"' \
+      '  databases:' \
+      '  - name: "self-hosted-mongo"' \
+      '    protocol: "mongodb"'\
+      '    uri: "localhost:27017"'
+
+dump_autouser:
+	@printf "%s\n" \
+      'db_service:' \
+      '  enabled: "yes"' \
+      '  databases:' \
+      '  - name: "self-hosted-mongo-auto"' \
+      '    protocol: "mongodb"'\
+      '    uri: "localhost:27017"' \
+      '    static_labels:' \
+      '      EnableMongoAutoUser: "true"'\
+      '    admin_user:' \
+      '      name: "teleport-admin"'
+
 .PHONY: clean
 clean: done
 	rm mongo.cas mongo.crt

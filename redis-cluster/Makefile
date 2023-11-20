@@ -11,6 +11,15 @@ up:
 down:
 	docker-compose down
 
+dump:
+	@printf "%s\n" \
+      'db_service:' \
+      '  enabled: "yes"' \
+      '  databases:' \
+      '  - name: "self-hosted-redis-cluster"' \
+      '    protocol: "redis"'\
+      '    uri: "10.5.0.10:6379?mode=cluster"'
+
 .PHONY: clean
 clean: down
 	rm -rf node*.crt node*.cas node*.key
