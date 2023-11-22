@@ -18,7 +18,7 @@ dump:
       '  databases:' \
       '  - name: "self-hosted-redis-cluster"' \
       '    protocol: "redis"'\
-      '    uri: "10.5.0.10:6379?mode=cluster"'
+      '    uri: "rediss://10.5.0.10:6379?mode=cluster"'
 
 .PHONY: clean
 clean: down
