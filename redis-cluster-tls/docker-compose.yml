@@ -1,0 +1,101 @@
+version: '2'
+services:
+  redis-node-0:
+    image: redis:7.0
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.5
+    command: ["redis-server", "/opt/redis/redis.conf"]
+
+  redis-node-1:
+    image: redis:7.0
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.6
+    command: ["redis-server", "/opt/redis/redis.conf"]
+
+  redis-node-2:
+    image: redis:7.0
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.7
+    command: ["redis-server", "/opt/redis/redis.conf"]
+
+  redis-node-3:
+    image: redis:7.0
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.8
+    command: ["redis-server", "/opt/redis/redis.conf"]
+
+  redis-node-4:
+    image: redis:7.0
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.9
+    command: ["redis-server", "/opt/redis/redis.conf"]
+
+  redis-node-5:
+    image: redis:7.0
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.10
+    command: ["redis-server", "/opt/redis/redis.conf"]
+
+  redis-cluster:
+    image: redis:7.0
+    volumes:
+      - "./:/opt/redis"
+    networks:
+      rediscluster:
+        ipv4_address: 10.5.0.11
+    command: 
+      - "redis-cli"
+      - "--cluster"
+      - "create"
+      - "10.5.0.5:6379"
+      - "10.5.0.6:6379"
+      - "10.5.0.7:6379"
+      - "10.5.0.8:6379"
+      - "10.5.0.9:6379"
+      - "10.5.0.10:6379"
+      - "--cluster-replicas"
+      - "1"
+      - "--cluster-yes"
+      - "--user"
+      - "alice"
+      - "--pass"
+      - "abcdef"
+      - "--tls"
+      - "--cacert"
+      - "/opt/redis/node.cas"
+      - "--key"
+      - "/opt/redis/node.key"
+      - "--cert"
+      - "/opt/redis/node.crt"
+    depends_on:
+      - redis-node-0
+      - redis-node-1
+      - redis-node-2
+      - redis-node-3
+      - redis-node-4
+      - redis-node-5
+networks:
+  rediscluster:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/24
+         gateway: 10.5.0.1

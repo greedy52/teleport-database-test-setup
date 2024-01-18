@@ -5,6 +5,8 @@ mariadb/mariadb.cas
 mariadb/mariadb.crt
 mariadb/mariadb.key
 redis-cluster/node*
+redis-cluster-tls/self*
+redis-cluster-tls/node.*
 redis-single/single.cas
 redis-single/single.crt
 redis-single/single.key

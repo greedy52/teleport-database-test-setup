@@ -1,0 +1,4 @@
+user alice on >abcdef allcommands allkeys
+user bob-org on #f7ca53a40f56ec7ff6a235d9136431c6104a1769eed13d18a2d68f388325f305 allcommands allkeys
+user bob on #1e224a37b85835463f66a36b127c3743a6d25d138e65ad7bc60d4e4805da4d3e allcommands allkeys
+user default on >bitnami allcommands allkeys
