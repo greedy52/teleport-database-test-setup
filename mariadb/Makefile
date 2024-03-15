@@ -6,6 +6,15 @@ init:
 	bash -c "chown 999:999 mariadb.crt"
 	bash -c "chown 999:999 mariadb.key"
 
+init-with-self-signed: 
+	openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout mariadb.key -out mariadb.crt -subj "/CN=localhost" -addext "subjectAltName=DNS:localhost" -addext "extendedKeyUsage = serverAuth, clientAuth"
+	cp mariadb.crt mariadb.cas
+	tctl auth export --type db-client >> mariadb.cas
+	bash -c "chown 999:999 mariadb.cas"
+	bash -c "chown 999:999 mariadb.crt"
+	bash -c "chown 999:999 mariadb.key"
+
+
 up:
 	docker run \
     -e MYSQL_ROOT_PASSWORD=password \
