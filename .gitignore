@@ -12,3 +12,6 @@ redis-single/single.crt
 redis-single/single.key
 mongo/mongo.cas
 mongo/mongo.crt
+postgres/server.cas
+postgres/server.crt
+postgres/server.key

@@ -1,5 +1,3 @@
 - make init
 - make up
-- (wait a bit for server up)
-- make hba
-- docker exec -it postgres psql --username postgres --password test
+- docker exec -e POSTGRES_PASSWORD=test -it postgres psql --username postgres test 

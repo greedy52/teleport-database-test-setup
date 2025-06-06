@@ -1,4 +1,6 @@
 VERSION=16
+PORT=5432
+NAME=postgres
 
 init:
 	tctl auth sign --format=db --host=localhost --out=server --ttl=2190h
@@ -11,20 +13,18 @@ up:
 	-e POSTGRES_USER=postgres \
 	-e POSTGRES_PASSWORD=password \
 	-e POSTGRES_DB=test \
+    -v ${PWD}/pg_hba.conf:/opt/postgres/pg_hba.conf \
     -v ${PWD}/server.cas:/opt/postgres/server.cas \
     -v ${PWD}/server.crt:/opt/postgres/server.crt \
     -v ${PWD}/server.key:/opt/postgres/server.key \
-	-d --name postgres -p 5432:5432 \
+    -v ${PWD}/initdb.sh:/docker-entrypoint-initdb.d/config_hba.sh \
+    -v ${PWD}/initdb.sql:/docker-entrypoint-initdb.d/setup.sql \
+	-d --name $(NAME) -p $(PORT):5432 \
     postgres:$(VERSION) \
 	-c "ssl=on" \
 	-c "ssl_cert_file=/opt/postgres/server.crt" \
 	-c "ssl_key_file=/opt/postgres/server.key" \
 	-c "ssl_ca_file=/opt/postgres/server.cas"
-
-hba:
-	docker cp pg_hba.conf postgres:/var/lib/postgresql/data/pg_hba.conf
-	docker stop postgres
-	docker start postgres
 
 .PHONY: clean
 clean:

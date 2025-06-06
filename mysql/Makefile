@@ -1,3 +1,5 @@
+SUFFIX ?=
+PORT ?= 3306
 
 init:
 	tctl auth sign --format=db --host=localhost --out=mysql --ttl=2190h
@@ -11,7 +13,7 @@ up:
     -v ${PWD}/mysql.cas:/etc/mysql.cas \
     -v ${PWD}/mysql.crt:/etc/mysql.crt \
     -v ${PWD}/mysql.key:/etc/mysql.key \
-    -d --name mysql -p 3306:3306 \
+    -d --name mysql$(SUFFIX) -p $(PORT):3306 \
     mysql/mysql-server:8.0 \
     --bind-address=0.0.0.0 \
     --require_secure_transport=ON \
