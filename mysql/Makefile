@@ -14,7 +14,7 @@ up:
     -v ${PWD}/mysql.crt:/etc/mysql.crt \
     -v ${PWD}/mysql.key:/etc/mysql.key \
     -d --name mysql$(SUFFIX) -p $(PORT):3306 \
-    mysql/mysql-server:8.0 \
+    mysql:8.4 \
     --bind-address=0.0.0.0 \
     --require_secure_transport=ON \
     --ssl-ca=/etc/mysql.cas \

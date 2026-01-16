@@ -1,0 +1,4304 @@
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: sql_features
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::information_schema::sql_features
+  revision: 972eaacc-1bb9-43c3-969f-1897198eca03
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: sql_features
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: sql_implementation_info
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::information_schema::sql_implementation_info
+  revision: f1f9fc47-17eb-49e7-b107-6aea1795495a
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: sql_implementation_info
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: sql_parts
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::information_schema::sql_parts
+  revision: 002a5411-5216-4dfd-a4c8-7831773616ba
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: sql_parts
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: sql_sizing
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::information_schema::sql_sizing
+  revision: c0e4a52d-5cd4-4aeb-845c-7a5f6bb3d183
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: sql_sizing
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_aggregate
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_aggregate
+  revision: 9151a2cc-7c0d-4337-8603-535e1c7993f1
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_aggregate
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_am
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_am
+  revision: 103b51b5-dca6-49de-99cd-710e0c148978
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_am
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_amop
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_amop
+  revision: 21134883-37b8-4f3f-9d5c-a8c7babff170
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_amop
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_amproc
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_amproc
+  revision: 95716c1b-5f4c-411e-9f6f-4146157f2a25
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_amproc
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_attrdef
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_attrdef
+  revision: 165f7666-8d14-4943-b97f-31f64479189a
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_attrdef
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_attribute
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_attribute
+  revision: 628ed1e7-922e-4ab5-a7f8-28614cfa74e3
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_attribute
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_auth_members
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_auth_members
+  revision: 0beb6c96-2de8-4db2-9497-0d570634f36f
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_auth_members
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_authid
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_authid
+  revision: 5f5e625f-c45a-49d8-8f1d-12868bf78810
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_authid
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_cast
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_cast
+  revision: c0138ef1-5f37-4ec2-bc40-ca4ade616ab3
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_cast
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_class
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_class
+  revision: 773939ed-8c09-44d8-82a5-69667184bfa7
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_class
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_collation
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_collation
+  revision: e9c2d5bc-0720-4cfb-b879-9e99d06ca567
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_collation
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_constraint
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_constraint
+  revision: 8a115b75-9835-4580-ade0-2e706275528c
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_constraint
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_conversion
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_conversion
+  revision: 9182f58c-637d-4c63-bba6-143ddd061269
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_conversion
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_database
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_database
+  revision: 2cc39f95-2928-4e3f-909a-707ff2b9b1ed
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_database
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_db_role_setting
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_db_role_setting
+  revision: 54e2d0b2-94eb-4a1e-b4b4-a24ad0e45f10
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_db_role_setting
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_default_acl
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_default_acl
+  revision: 173136e6-8f76-457e-a438-4c6ad87b67ed
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_default_acl
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_depend
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_depend
+  revision: 820c371d-6825-4d05-8fe7-4af4a69a3fd0
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_depend
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_description
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_description
+  revision: acbacba6-538e-4a67-be45-ae9d658132b4
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_description
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_enum
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_enum
+  revision: b7e8cc48-39fd-415f-bf06-bfd0136877f8
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_enum
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_event_trigger
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_event_trigger
+  revision: 3f896489-a8d3-41d6-9d7c-9e7e39e03c17
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_event_trigger
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_extension
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_extension
+  revision: f72943a7-b570-4ead-bac3-fcc15b8a009e
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_extension
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_foreign_data_wrapper
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_foreign_data_wrapper
+  revision: f2099feb-fb42-4775-b872-95e53112bd58
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_foreign_data_wrapper
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_foreign_server
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_foreign_server
+  revision: 1f97dd16-af40-407a-a4bc-53fcb0b03014
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_foreign_server
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_foreign_table
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_foreign_table
+  revision: a0001a07-90e8-4b08-9c8e-08de76c8f6af
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_foreign_table
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_index
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_index
+  revision: e67e155c-9b9a-461b-8554-33db60819457
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_index
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_inherits
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_inherits
+  revision: 9bc1f96c-7153-4c12-b918-b293650281f0
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_inherits
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_init_privs
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_init_privs
+  revision: 72af5e45-a284-4329-b1cd-3ca27c8dbbee
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_init_privs
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_language
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_language
+  revision: b040569b-8516-438e-b824-764c45b248f3
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_language
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_largeobject
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_largeobject
+  revision: c8fbf86a-58c4-4bbc-9b0f-6b890d7f62f9
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_largeobject
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_largeobject_metadata
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_largeobject_metadata
+  revision: b1618a26-5227-41a7-baf7-4023c8156902
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_largeobject_metadata
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_namespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_namespace
+  revision: 04866809-e3e9-4c86-873b-9fdcb0992e18
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_namespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_opclass
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_opclass
+  revision: 2c18654e-ad8a-4b38-bd78-22bc99818dd8
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_opclass
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_operator
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_operator
+  revision: 2b577edc-8f85-443d-bee0-c8e064ce93a7
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_operator
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_opfamily
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_opfamily
+  revision: 1c6b2c3a-084d-4e02-bd1d-ad9f655ceef1
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_opfamily
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_parameter_acl
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_parameter_acl
+  revision: bc5f2a38-0bfe-4883-8d1c-3e84f51ec710
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_parameter_acl
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_partitioned_table
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_partitioned_table
+  revision: 90e6c194-3992-4058-86b3-f2fa7db9b4f2
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_partitioned_table
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_policy
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_policy
+  revision: 2d3c3ded-bed5-4087-a268-5e61119f767e
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_policy
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_proc
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_proc
+  revision: 925be276-232c-4152-ac8a-9fd01253d402
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_proc
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_publication
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_publication
+  revision: b2bf36f9-c316-40fa-98df-1defa916022a
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_publication
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_publication_namespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_publication_namespace
+  revision: 09613668-7a3a-40c2-990c-f897c518d2ce
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_publication_namespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_publication_rel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_publication_rel
+  revision: 13d99943-60a3-488f-88e9-bbc442c5634e
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_publication_rel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_range
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_range
+  revision: ddb4229f-b705-4e83-98d6-b77686824c16
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_range
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_replication_origin
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_replication_origin
+  revision: 644f98fd-eddf-498e-95ea-731df2be7357
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_replication_origin
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_rewrite
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_rewrite
+  revision: ac67fc7d-0168-42c9-ad36-743339486690
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_rewrite
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_seclabel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_seclabel
+  revision: 8167ce9f-a6c6-4409-a753-0ccfbcade18a
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_seclabel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_sequence
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_sequence
+  revision: 2aec0d71-f070-48f0-a898-122f974c5128
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_sequence
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_shdepend
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_shdepend
+  revision: 87f91aa8-4416-4627-8031-c43843d18df8
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_shdepend
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_shdescription
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_shdescription
+  revision: aeba3cdd-66fe-473e-b683-5eea61c4a9d1
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_shdescription
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_shseclabel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_shseclabel
+  revision: b390c71d-0c68-4778-8ba7-dbe049e911b7
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_shseclabel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_statistic
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_statistic
+  revision: ca706ece-7373-4951-ae43-7f716fd2c80b
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_statistic
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_statistic_ext
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_statistic_ext
+  revision: 162d698a-0d2d-467e-bf8c-36542f9af054
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_statistic_ext
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_statistic_ext_data
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_statistic_ext_data
+  revision: cdea936f-3c47-45d9-a6e3-f7d2be0a34d7
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_statistic_ext_data
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_subscription
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_subscription
+  revision: 4e0ed5bf-df97-4cc0-892d-009bdf6a4844
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_subscription
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_subscription_rel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_subscription_rel
+  revision: 661fea72-3274-40cc-8054-cdcddc020c18
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_subscription_rel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_tablespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_tablespace
+  revision: dd846c7d-5565-4ff6-9779-2597b67c8311
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_tablespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_transform
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_transform
+  revision: 978f1c91-59be-4d4b-9586-d67fc0a6c61f
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_transform
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_trigger
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_trigger
+  revision: 755d3456-f729-4d57-8b7f-4e48cbc4617c
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_trigger
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_ts_config
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_ts_config
+  revision: 18c2fa93-47a4-4855-9284-d377912e0751
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_ts_config
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_ts_config_map
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_ts_config_map
+  revision: 1c664836-86ff-4067-b64e-e8ad3700ae6d
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_ts_config_map
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_ts_dict
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_ts_dict
+  revision: dcbb830f-7c45-49a0-ad2c-d0ea4bf354fe
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_ts_dict
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_ts_parser
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_ts_parser
+  revision: c56d46b7-d0ec-484b-847a-0324d50ad78c
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_ts_parser
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_ts_template
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_ts_template
+  revision: ddc79f61-33ff-4bc7-83f7-4b469e22da04
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_ts_template
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_type
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_type
+  revision: 44d3ebb7-35d2-44d5-a58c-9a1176dbdf43
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_type
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: postgres
+    database_service_name: my-postgres-sales
+    name: pg_user_mapping
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::postgres::pg_catalog::pg_user_mapping
+  revision: b9da95ae-2201-427b-98d6-e6f2bb3e8687
+spec:
+  database: postgres
+  database_service_name: my-postgres-sales
+  name: pg_user_mapping
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: sql_features
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::information_schema::sql_features
+  revision: b415fded-f5b2-4e34-aee4-7d8a93744f91
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: sql_features
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: sql_implementation_info
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::information_schema::sql_implementation_info
+  revision: 208735f2-bff6-4f75-be40-e30569cf2077
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: sql_implementation_info
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: sql_parts
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::information_schema::sql_parts
+  revision: e697bbc1-0b40-43a2-95c6-f87f2b7a10e1
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: sql_parts
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: sql_sizing
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::information_schema::sql_sizing
+  revision: 7cf15e3e-a98b-48b6-acfb-e44a5f613b21
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: sql_sizing
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_aggregate
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_aggregate
+  revision: 15679c91-b840-40fd-8caa-81f87e730490
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_aggregate
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_am
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_am
+  revision: 9c1d6b2d-be64-4def-9e21-d0de701d35fb
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_am
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_amop
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_amop
+  revision: 51e43b70-d968-4e5b-b766-92700f67e285
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_amop
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_amproc
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_amproc
+  revision: 6fcee067-b33d-45cd-acbe-84bb21b9f12f
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_amproc
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_attrdef
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_attrdef
+  revision: 544f911f-4d0e-48b0-801c-2d3a82ba5ca2
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_attrdef
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_attribute
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_attribute
+  revision: 2dcd41b5-e9a9-4783-af92-22f61f92f9ac
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_attribute
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_auth_members
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_auth_members
+  revision: bb5eddf5-1144-4589-986a-db05d040f055
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_auth_members
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_authid
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_authid
+  revision: de21c4fc-5e96-4936-a1e1-8e68f2e6b02f
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_authid
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_cast
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_cast
+  revision: 89e987be-d153-46cf-9933-cc11eaf0448b
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_cast
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_class
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_class
+  revision: 8a43c802-bba1-4698-bf80-ad4ed8f09860
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_class
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_collation
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_collation
+  revision: 64aac093-b035-4fcc-9e01-c37c24100992
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_collation
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_constraint
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_constraint
+  revision: a48b4930-d8c1-41b7-8f5f-026bc2ef11d1
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_constraint
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_conversion
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_conversion
+  revision: ffbf73c8-96bb-4061-bff1-c8c23bf53b65
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_conversion
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_database
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_database
+  revision: 8a05f76f-bac8-40bc-a174-9a54bd8983ae
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_database
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_db_role_setting
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_db_role_setting
+  revision: bc1ef7a4-b847-40e6-97fb-f31f9ea2d6b9
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_db_role_setting
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_default_acl
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_default_acl
+  revision: e0ffe375-9cad-466c-b77a-fbb635332b0c
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_default_acl
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_depend
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_depend
+  revision: 52a7c5d2-fb4b-4ac6-a104-e8b7284c619c
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_depend
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_description
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_description
+  revision: 7fe29ec4-637d-4541-96cb-8e9fa2588038
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_description
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_enum
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_enum
+  revision: 012c632e-ef46-435b-82bd-9ea5ae7a8134
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_enum
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_event_trigger
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_event_trigger
+  revision: ec3cf582-49a2-45cf-a096-ee220ca2c2b0
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_event_trigger
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_extension
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_extension
+  revision: d78aeb7f-a9e4-4c45-bb95-a2c19f3c6e34
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_extension
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_foreign_data_wrapper
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_foreign_data_wrapper
+  revision: 2c05cd91-9954-4e24-a5c9-4728c1279e82
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_foreign_data_wrapper
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_foreign_server
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_foreign_server
+  revision: 59fa7fe0-bdc8-4a94-b1c6-d5690703c252
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_foreign_server
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_foreign_table
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_foreign_table
+  revision: dd08280e-e704-4d8c-b1ca-dde8de6fda51
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_foreign_table
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_index
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_index
+  revision: cb97f167-3d45-4daa-bd0f-5c9ecbcd802e
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_index
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_inherits
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_inherits
+  revision: 2df1d5ae-3416-4cee-b8f6-010540119aeb
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_inherits
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_init_privs
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_init_privs
+  revision: b51fe3c6-7061-4640-9190-0f9674e71b2b
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_init_privs
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_language
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_language
+  revision: 5f0828d2-ad1a-4154-8c03-bacb0e5a6129
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_language
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_largeobject
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_largeobject
+  revision: a9a743c3-e949-465e-bb44-397658463378
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_largeobject
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_largeobject_metadata
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_largeobject_metadata
+  revision: fea2dd44-4d96-4352-95c3-c7bd98b5fe5a
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_largeobject_metadata
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_namespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_namespace
+  revision: c8ee4f40-6008-428d-98c9-454c74c3dd43
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_namespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_opclass
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_opclass
+  revision: f7125acb-caf7-4477-aff8-3f337ab0e163
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_opclass
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_operator
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_operator
+  revision: a60ddc42-e515-4580-a883-0f3640ea27d4
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_operator
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_opfamily
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_opfamily
+  revision: 2b426141-8ab0-4231-8cee-106e16636827
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_opfamily
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_parameter_acl
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_parameter_acl
+  revision: a4cd92ba-2460-4852-a392-d3c01394f487
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_parameter_acl
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_partitioned_table
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_partitioned_table
+  revision: a1f1a391-f042-40e5-bad9-273b5395fe52
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_partitioned_table
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_policy
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_policy
+  revision: 77037762-a92f-4cd3-a531-b7caac4db800
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_policy
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_proc
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_proc
+  revision: d04bba66-e90e-4a5a-9785-566f8788cfd1
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_proc
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_publication
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_publication
+  revision: 266bf3aa-994f-4d12-b312-c15010f1b5cd
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_publication
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_publication_namespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_publication_namespace
+  revision: 8c41ce17-edae-4249-897f-96701bbeaeeb
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_publication_namespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_publication_rel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_publication_rel
+  revision: ccbd1d99-94c8-45df-8e64-fd4e42845865
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_publication_rel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_range
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_range
+  revision: 76c90c33-d93a-4a2b-96ee-ebc5d1f9519b
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_range
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_replication_origin
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_replication_origin
+  revision: 185b241a-942f-45a8-b3d3-937cf1072e80
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_replication_origin
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_rewrite
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_rewrite
+  revision: 3baf9214-a971-416d-88c7-596634fff28a
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_rewrite
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_seclabel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_seclabel
+  revision: 681fe0e5-84f2-4aac-984f-2297c88b7d82
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_seclabel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_sequence
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_sequence
+  revision: 8090b0a3-fca5-44f2-a650-173d1fdc5ae5
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_sequence
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_shdepend
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_shdepend
+  revision: 7f779504-ea7f-470b-91f3-c118a2d71235
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_shdepend
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_shdescription
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_shdescription
+  revision: 40d5956f-4f5d-4fc6-abe1-c7a2648d0d0d
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_shdescription
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_shseclabel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_shseclabel
+  revision: c0d2f4ee-c618-4985-802a-b2861d24c0ce
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_shseclabel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_statistic
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_statistic
+  revision: 77a53cff-31ed-4fc2-be2e-acd5f35df4a2
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_statistic
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_statistic_ext
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_statistic_ext
+  revision: a795169c-61be-410d-9988-9faff8da6642
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_statistic_ext
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_statistic_ext_data
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_statistic_ext_data
+  revision: 7073fbf8-aae2-403a-b985-e6d1a7fe6188
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_statistic_ext_data
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_subscription
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_subscription
+  revision: eea3d9e4-4eb9-4388-b3e8-587078b604a0
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_subscription
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_subscription_rel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_subscription_rel
+  revision: bfb98ce6-4e44-43e1-b930-83b0e6d7a32a
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_subscription_rel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_tablespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_tablespace
+  revision: 1198fc42-8e92-4a74-9fca-499c17e52fe0
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_tablespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_transform
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_transform
+  revision: b4de15be-2a94-4549-a155-9661131bd2e5
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_transform
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_trigger
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_trigger
+  revision: d86415ce-bd92-40c7-b10d-cc2b95e37350
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_trigger
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_ts_config
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_ts_config
+  revision: f2338e8f-dc8b-439b-8cb1-5b6291416692
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_ts_config
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_ts_config_map
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_ts_config_map
+  revision: e4c90e25-5e87-4e90-8088-1e146bdc71f1
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_ts_config_map
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_ts_dict
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_ts_dict
+  revision: 159d477d-b509-4125-a859-662c0b101345
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_ts_dict
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_ts_parser
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_ts_parser
+  revision: 08ec9bd1-df7a-4a99-95b4-5a65d605afb9
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_ts_parser
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_ts_template
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_ts_template
+  revision: efa70dc7-2101-4513-97f7-49fabbd8ed53
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_ts_template
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_type
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_type
+  revision: 27033936-1323-4c63-a11e-0a5e3d131fa8
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_type
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: teleport
+    database_service_name: my-postgres-sales
+    name: pg_user_mapping
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::teleport::pg_catalog::pg_user_mapping
+  revision: e740e5c2-e294-4608-b02d-f358172d59fb
+spec:
+  database: teleport
+  database_service_name: my-postgres-sales
+  name: pg_user_mapping
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: sql_features
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::test::information_schema::sql_features
+  revision: 60961707-23d3-46f2-965d-69f50a23b776
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: sql_features
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: sql_implementation_info
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::test::information_schema::sql_implementation_info
+  revision: be4c9ef7-d1d2-4a5e-8c95-05b0492841e1
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: sql_implementation_info
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: sql_parts
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::test::information_schema::sql_parts
+  revision: 1ccaec65-e078-42bf-95c1-b8b676644438
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: sql_parts
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: sql_sizing
+    object_kind: table
+    protocol: postgres
+    schema: information_schema
+  name: postgres::self-hosted::my-postgres-sales::table::test::information_schema::sql_sizing
+  revision: 2f6d0933-b31c-4af4-a995-a15a20d5bfeb
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: sql_sizing
+  object_kind: table
+  protocol: postgres
+  schema: information_schema
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_aggregate
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_aggregate
+  revision: 611f2f7d-deef-46dc-b8ba-614ae94b23d7
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_aggregate
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_am
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_am
+  revision: c2c54c01-5457-44fb-9b34-1eec675afdb2
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_am
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_amop
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_amop
+  revision: eb995477-db20-4cbf-8162-0d354f20031e
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_amop
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_amproc
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_amproc
+  revision: 337ed870-e079-4638-b7a5-138700d62322
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_amproc
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_attrdef
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_attrdef
+  revision: c100d2ef-1535-40d5-b421-2bbb1a3c4825
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_attrdef
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_attribute
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_attribute
+  revision: a5bd9022-4d98-4227-b08a-975a09043d7a
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_attribute
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_auth_members
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_auth_members
+  revision: b5de027e-41c2-4175-8712-83c54dc63fbe
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_auth_members
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_authid
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_authid
+  revision: 1325c7de-08c0-4130-8460-e7a7db849f8a
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_authid
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_cast
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_cast
+  revision: 2a16c6c8-b2dc-431e-ad88-8de8a7921485
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_cast
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_class
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_class
+  revision: 6b4f877d-519b-4d2b-b78d-162fe1f39367
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_class
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_collation
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_collation
+  revision: 8e8aad5c-04e9-437d-886d-2043bd6f2f78
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_collation
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_constraint
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_constraint
+  revision: e6bb4465-f523-47eb-b3d3-960fd5e76e54
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_constraint
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_conversion
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_conversion
+  revision: b10fdd0d-ff0c-4ef2-acec-021e0b29077d
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_conversion
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_database
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_database
+  revision: 92f85775-e30b-4ec0-8128-729e656f8a8a
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_database
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_db_role_setting
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_db_role_setting
+  revision: e43ec0c5-a7f5-4f8b-8e04-e0586ae083c4
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_db_role_setting
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_default_acl
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_default_acl
+  revision: 1127ec78-1563-41c1-bf9b-43f4d6f43cd9
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_default_acl
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_depend
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_depend
+  revision: c69db7d3-bfd0-4418-b13a-835bba4d3059
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_depend
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_description
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_description
+  revision: 4f995d3d-bbfd-4c44-a116-85fa99a1494a
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_description
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_enum
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_enum
+  revision: 0072813c-268a-47d8-b62f-ac51134ce646
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_enum
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_event_trigger
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_event_trigger
+  revision: 1daab0e3-8ce6-4c3f-907a-c9d981c477e3
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_event_trigger
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_extension
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_extension
+  revision: 75c7e4db-4ed6-4248-bc49-d13449477a97
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_extension
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_foreign_data_wrapper
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_foreign_data_wrapper
+  revision: f09547c1-0559-49d6-a7fb-2c51fc2f851b
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_foreign_data_wrapper
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_foreign_server
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_foreign_server
+  revision: 67243e3a-57aa-4354-b9c0-5138804adc1f
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_foreign_server
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_foreign_table
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_foreign_table
+  revision: 699116ee-f78e-47d9-b410-abd03a9a3823
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_foreign_table
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_index
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_index
+  revision: 350044f2-87f2-4861-87a4-1b990edd4125
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_index
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_inherits
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_inherits
+  revision: 296fd6d2-792c-4903-8694-f44ca09bb10c
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_inherits
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_init_privs
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_init_privs
+  revision: 8197bebb-4310-4904-bfd6-5a0dc9018cd0
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_init_privs
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_language
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_language
+  revision: 2cd6ce21-63b4-49f2-8f95-2c6a46999f59
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_language
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_largeobject
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_largeobject
+  revision: 823de58e-3d0f-46d2-a36e-c8367d7c9e0b
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_largeobject
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_largeobject_metadata
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_largeobject_metadata
+  revision: aa8e776e-026a-4e1a-b9b4-0d43c92ef2ab
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_largeobject_metadata
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_namespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_namespace
+  revision: c7588a40-d4a6-4b9a-8e49-4e08ae17fdc1
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_namespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_opclass
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_opclass
+  revision: 0a53367d-9e63-420a-b531-6b89df38da1e
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_opclass
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_operator
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_operator
+  revision: 856b53fd-7b4e-4255-ba0a-6cad07c8f868
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_operator
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_opfamily
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_opfamily
+  revision: f92125de-dfc4-4d6d-9548-ba221c4f29c1
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_opfamily
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_parameter_acl
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_parameter_acl
+  revision: 8b343158-b613-45c9-8ae8-f37d54d9d9c0
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_parameter_acl
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_partitioned_table
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_partitioned_table
+  revision: eba431ed-eb35-4933-8b50-41784735da53
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_partitioned_table
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_policy
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_policy
+  revision: 72adadce-cb3d-4255-af00-6fd6decc3e37
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_policy
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_proc
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_proc
+  revision: c824d6f9-bba5-4423-a29b-ba78335ad494
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_proc
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_publication
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_publication
+  revision: c10d7ece-778b-41bf-bcc0-439d84859993
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_publication
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_publication_namespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_publication_namespace
+  revision: b5249474-de03-48dc-ab56-bc19ed293987
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_publication_namespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_publication_rel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_publication_rel
+  revision: 6b2f47c7-0708-4c33-9409-cc9dbdb2de26
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_publication_rel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_range
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_range
+  revision: e9ab2715-16d6-4767-9940-cf87d2e81afb
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_range
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_replication_origin
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_replication_origin
+  revision: da507c13-9099-4cd1-8393-fc4f0ea6220e
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_replication_origin
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_rewrite
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_rewrite
+  revision: 187b4524-3328-453e-b299-97a9a874b993
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_rewrite
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_seclabel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_seclabel
+  revision: 1ec2bae5-5e6a-42e4-8ca1-588175b5abcc
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_seclabel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_sequence
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_sequence
+  revision: 49ed29ad-80c2-41fe-ae5e-60b935303867
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_sequence
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_shdepend
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_shdepend
+  revision: 54876b6f-291f-4947-8b14-e7cf52b43a8a
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_shdepend
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_shdescription
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_shdescription
+  revision: a6cb6302-97f1-4e22-8bda-14be766d4456
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_shdescription
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_shseclabel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_shseclabel
+  revision: 238d73fd-e724-4117-a12d-c6253a14794f
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_shseclabel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_statistic
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_statistic
+  revision: 97362d49-0d12-4ca5-a7f1-535eb5b211b6
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_statistic
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_statistic_ext
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_statistic_ext
+  revision: 4c8615c1-ab0a-4624-ae75-b9da344dc77a
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_statistic_ext
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_statistic_ext_data
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_statistic_ext_data
+  revision: 44135f81-baca-4e54-9a54-61369753f1ad
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_statistic_ext_data
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_subscription
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_subscription
+  revision: e79856dc-06a0-45ac-95ba-9c8838ccbef2
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_subscription
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_subscription_rel
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_subscription_rel
+  revision: 49ff47ea-d12e-4048-9324-8b7eb4f8fde3
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_subscription_rel
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_tablespace
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_tablespace
+  revision: e874e2ce-f13e-49ae-99c6-fa77918b19b5
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_tablespace
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_transform
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_transform
+  revision: 6a3ba172-59fe-4027-a39d-266dae9f14bc
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_transform
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_trigger
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_trigger
+  revision: 58115d9b-ca36-4085-b4d2-5a22cddfdf1d
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_trigger
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_ts_config
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_ts_config
+  revision: 402f20e0-9b23-427f-a7c8-10a4f182ffa9
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_ts_config
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_ts_config_map
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_ts_config_map
+  revision: 2f8ee0d2-a678-4741-b841-c81ef1a62080
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_ts_config_map
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_ts_dict
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_ts_dict
+  revision: bae90c80-6ea9-4b44-847a-1b9fd9fd8a41
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_ts_dict
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_ts_parser
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_ts_parser
+  revision: ac3114d7-c796-4d99-bbab-22b977719d2f
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_ts_parser
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_ts_template
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_ts_template
+  revision: c8b336ad-47a0-456f-b3bb-892cf35f9272
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_ts_template
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_type
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_type
+  revision: 9f8f61fd-1d39-4548-903d-2a1984b53e2a
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_type
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: pg_user_mapping
+    object_kind: table
+    protocol: postgres
+    schema: pg_catalog
+  name: postgres::self-hosted::my-postgres-sales::table::test::pg_catalog::pg_user_mapping
+  revision: 239b5169-00ee-474a-8af9-2b72fc120b68
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: pg_user_mapping
+  object_kind: table
+  protocol: postgres
+  schema: pg_catalog
+version: v1
+---
+kind: db_object
+metadata:
+  expires: "2025-07-07T19:03:30.173301Z"
+  labels:
+    database: test
+    database_service_name: my-postgres-sales
+    name: sales_records
+    object_kind: table
+    protocol: postgres
+    schema: public
+  name: postgres::self-hosted::my-postgres-sales::table::test::public::sales_records
+  revision: bdf9f5e8-d716-4e78-8c6e-a7d77648d299
+spec:
+  database: test
+  database_service_name: my-postgres-sales
+  name: sales_records
+  object_kind: table
+  protocol: postgres
+  schema: public
+version: v1

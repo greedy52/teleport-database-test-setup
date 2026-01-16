@@ -7,7 +7,6 @@ create role role2 with admin "teleport-admin" ;
 create role role3 with admin "teleport-admin" ;
 grant all on database test to role1;
 
-
 CREATE TABLE sales_records (
     id SERIAL PRIMARY KEY,
     sale_date DATE NOT NULL,
