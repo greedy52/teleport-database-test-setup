@@ -1,0 +1,26 @@
+[proxy]
+host = "greedy52.dev-blue.cloud.teleportinfra.dev"
+port = 443
+insecure = false  # set true to skip TLS verification
+
+[cluster]
+site = ""  # cluster name shown in tsh status; defaults to proxy host if empty
+
+[database]
+service_name = "my-postgres-auto\" || name == \"my-postgres"
+#service_name = "test"
+protocol = "postgres"
+db_name = "test"
+db_user = "teleport-admin"
+db_roles = []
+
+[terminal]
+cols = 220
+rows = 50
+
+[auth]
+# Bearer token (expires frequently — grab a fresh one each run):
+# DevTools → Network → any /webapi/ XHR → Headers tab → Authorization: Bearer <token>
+bearer_token = ""
+# Session cookie: DevTools → Network → any /webapi/ XHR → Headers tab → Cookie → grab the value of __Host-session
+session_cookie = ""
