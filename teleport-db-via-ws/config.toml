@@ -1,5 +1,5 @@
 [proxy]
-host = "greedy52.dev-blue.cloud.teleportinfra.dev"
+host = "steve-beams.cloud.gravitational.io"
 port = 443
 insecure = false  # set true to skip TLS verification
 
@@ -7,8 +7,8 @@ insecure = false  # set true to skip TLS verification
 site = ""  # cluster name shown in tsh status; defaults to proxy host if empty
 
 [database]
-service_name = "my-postgres-auto\" || name == \"my-postgres"
-#service_name = "test"
+#service_name = "my-postgres-auto\" || name == \"my-postgres"
+service_name = "test"
 protocol = "postgres"
 db_name = "test"
 db_user = "teleport-admin"
