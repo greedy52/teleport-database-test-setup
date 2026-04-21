@@ -1,0 +1,21 @@
+services:
+  target:
+    image: python:3.12-alpine
+    working_dir: /srv
+    volumes: ["./target:/srv:ro"]
+    command: ["python3", "-m", "http.server"]
+    ports: ["9000:8000"]
+
+  allowed:
+    image: python:3.12-alpine
+    working_dir: /srv
+    volumes: ["./fetcher:/srv:ro"]
+    command: ["python3", "-m", "http.server"]
+    ports: ["9001:8000"]
+
+  evil:
+    image: python:3.12-alpine
+    working_dir: /srv
+    volumes: ["./fetcher:/srv:ro"]
+    command: ["python3", "-m", "http.server"]
+    ports: ["9002:8000"]

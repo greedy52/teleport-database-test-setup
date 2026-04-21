@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>preflight tester</h1>
+    <p>Open devtools to see the result.</p>
+    <pre id="out"></pre>
+    <script>
+      // Replace <cluster> below before opening.
+      const targetURL = 'https://target.<cluster>/';
+      const out = document.getElementById('out');
+      fetch(targetURL, {
+        method: 'POST',
+        credentials: 'include',
+        headers: {'X-Custom': 'hi'},
+      })
+        .then(r => {
+          const msg = 'OK ' + r.status;
+          console.log(msg);
+          out.textContent = msg;
+        })
+        .catch(e => {
+          const msg = 'BLOCKED ' + e;
+          console.log(msg);
+          out.textContent = msg;
+        });
+    </script>
+  </body>
+</html>
