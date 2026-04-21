@@ -3,7 +3,7 @@ services:
     image: python:3.12-alpine
     working_dir: /srv
     volumes: ["./target:/srv:ro"]
-    command: ["python3", "-m", "http.server"]
+    command: ["python3", "server.py"]
     ports: ["9000:8000"]
 
   allowed:
